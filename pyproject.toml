@@ -1,0 +1,21 @@
+[project]
+name = "servicos"
+version = "0.1.0"
+description = ""
+authors = [
+    {name = "meirelesgc",email = "geu_costa@outlook.com"}
+]
+readme = "README.md"
+requires-python = ">=3.13"
+dependencies = [
+    "streamlit (>=1.52.0,<2.0.0)",
+    "pandas (>=2.3.3,<3.0.0)",
+    "lxml (>=6.0.2,<7.0.0)",
+    "openpyxl (>=3.1.5,<4.0.0)",
+    "beautifulsoup4 (>=4.14.3,<5.0.0)"
+]
+package-mode = false
+
+[build-system]
+requires = ["poetry-core>=2.0.0,<3.0.0"]
+build-backend = "poetry.core.masonry.api"
